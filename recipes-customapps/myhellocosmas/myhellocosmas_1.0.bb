@@ -12,6 +12,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=838c366f69b72c5df05c96dff79b35f2"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 
+SRCREV = "04a1c3aabad2fbb1c4ba3619ff741c3f8c146731"
 SRC_URI = "git://github.com/CosRay/myhellocosmas.git"
 
 
