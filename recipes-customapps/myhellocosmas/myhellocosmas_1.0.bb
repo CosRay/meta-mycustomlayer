@@ -12,7 +12,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=838c366f69b72c5df05c96dff79b35f2"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 
-SRC_URI = "git://github.com/CosRay/myhellocosmas.git;protocol=https"
+SRC_URI = "https://github.com/CosRay/meta-mycustomlayer.git"
 SRCREV = "$AUTOREV"
 
 S = "${WORKDIR}/git"
