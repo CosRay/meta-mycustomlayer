@@ -18,7 +18,7 @@ SRCREV = "$AUTOREV"
 SRC_URI[md5sum] = "60adc019e1ab8f47b1c24c49b1ff3c1f"
 SRC_URI[sha256sum] = "a7a6823298eb4b5ed98a7daea83073ce319fc9ebb7bea327f151d3b8ceed801f"
 
-S = "${WORKDIR}/git"
+S = "${WORKDIR}"
 
 inherit autotools
 
