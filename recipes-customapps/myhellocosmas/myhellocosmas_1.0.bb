@@ -12,7 +12,7 @@ LIC_FILES_CHKSUM = "file:///poky/meta/files/common-licenses/MIT;md5=0835ade698e0
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 
-SRC_URI = "SRC_URI = "https://github.com/CosRay/myhellocosmas.git"
+SRC_URI = "https://github.com/CosRay/myhellocosmas.git"
 SRCREV = "$AUTOREV"
 
 S = "${WORKDIR}/git"
