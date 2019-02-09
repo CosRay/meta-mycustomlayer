@@ -12,10 +12,7 @@ LIC_FILES_CHKSUM = "file:///poky/meta/files/common-licenses/MIT;md5=0835ade698e0
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 
-SRC_URI[md5sum] = "c4c74055c0d42ddaf3a7bc4d3144ffd0"
-SRC_URI[sha256sum] = "30e867bba27f159cbe7c032cbf1390e8fc9efa68e8909e20ca2623348c7f6b6c"
-
-SRC_URI = "https://github.com/CosRay/meta-mycustomlayer.git"
+SRC_URI = "SRC_URI = "https://github.com/CosRay/myhellocosmas.git"
 SRCREV = "$AUTOREV"
 
 S = "${WORKDIR}/git"
