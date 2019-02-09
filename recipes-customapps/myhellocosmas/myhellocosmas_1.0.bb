@@ -12,11 +12,11 @@ LIC_FILES_CHKSUM = "file:///poky/meta/files/common-licenses/MIT;md5=0835ade698e0
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 
-SRC_URI = "https://github.com/CosRay/myhellocosmas.git"
-SRCREV = "$AUTOREV"
+#SRC_URI = "https://github.com/CosRay/myhellocosmas.git"
+#SRCREV = "$AUTOREV"
 
-SRC_URI[md5sum] = "60adc019e1ab8f47b1c24c49b1ff3c1f"
-SRC_URI[sha256sum] = "a7a6823298eb4b5ed98a7daea83073ce319fc9ebb7bea327f151d3b8ceed801f"
+SRCREV = "5c58a861ca31710f6433487b8b0d590a43afd0ad"
+SRC_URI = "git://github.com/DynamicDevices/bbexample.git"
 
 S = "${WORKDIR}"
 
